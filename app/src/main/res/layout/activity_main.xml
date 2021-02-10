@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background1"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:gravity="center"
+        android:text="Quiz Trivia"
+        android:textColor="@color/black"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        app:cardCornerRadius="40dp"
+        app:cardElevation="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp"
+            >
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Welcome!"
+                android:gravity="center"
+                android:textColor="#836A6A"
+                android:textSize="35sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Please Enter your Name"
+                android:gravity="center"
+                android:textColor="#464651"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:id="@+id/nametext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:hint="Name"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Age"
+                android:gravity="center"
+                android:textColor="#464651"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:id="@+id/agetext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:hint="age"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="City Name"
+                android:gravity="center"
+                android:textColor="#464651"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:id="@+id/citytext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:hint="city"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/startquizbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="START"
+                android:backgroundTint="@color/teal_700"
+                android:textSize="25sp"
+                android:layout_margin="20dp"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".finalactivity"
+    android:background="@drawable/background1"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Congratulations your goal is complete!"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        android:textColor="#C6708D"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/success" />
+
+    <TextView
+        android:id="@+id/userspace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="username"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/agespace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="age"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/cityspace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="city"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Your attempted 0 out of 3 questions"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#4357CC"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/scorei"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Your Total Score is 0"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="@color/purple_500"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/finishbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FINISH"
+        android:backgroundTint="#1A7480"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"/>
+
+
+
+
+
+</LinearLayout>
